@@ -1,0 +1,326 @@
+nav {
+  background-color: #ff4500;
+  color: #ffff;
+}
+
+ul li .nav-link {
+  color: #ffff;
+}
+
+.hero-text {
+  padding: 20px;
+}
+.hero-text span {
+  height: 3px;
+  width: 700px;
+}
+@media (max-width: 768px) {
+  .hero-text span {
+    width: 320px;
+  }
+}
+
+#parallax {
+  padding: 20px;
+  height: 500px;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-image: url("bg-kampus.jpeg");
+}
+
+@media (max-width: 768px) {
+  #parallax {
+    background-position: center 600px;
+  }
+}
+
+.hero-text {
+  padding-top: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffff;
+}
+.container .judul-utama {
+  text-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand {
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 40px;
+  margin: 0 10px 0 20px; /* Mengurangi margin kanan */
+  display: block;
+  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+
+.container h2 {
+  text-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+
+.subjudul {
+  font-size: 14px; /* Ukuran font untuk SISTEM PENJAMINAN MUTU INTERNAL */
+  display: block;
+  text-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Menambahkan gaya dasar untuk menu dan submenu */
+/*  */
+
+.menu li a.profil::after {
+  content: " \25BC"; /* Unicode untuk segitiga ke bawah */
+  margin-left: 5px; /* Jarak antara teks dan ikon */
+  font-size: 12px; /* Ukuran segitiga */
+}
+.menu li a.layanan::after {
+  content: " \25BC"; /* Unicode untuk segitiga ke bawah */
+  margin-left: 5px; /* Jarak antara teks dan ikon */
+  font-size: 12px; /* Ukuran segitiga */
+}
+.menu li a.unduhan::after {
+  content: " \25BC"; /* Unicode untuk segitiga ke bawah */
+  margin-left: 5px; /* Jarak antara teks dan ikon */
+  font-size: 12px; /* Ukuran segitiga */
+}
+
+/* Menambahkan z-index untuk memastikan submenu berada di atas elemen lain */
+
+.atas {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  justify-content: center;
+}
+/* Gaya untuk bagian hero */
+.hero {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero h2 {
+  font-size: 24px;
+  margin: 10px 0 0;
+}
+/* Gaya untuk bagian konten */
+.content {
+  padding: 20px 0;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.dokumen1 img {
+  width: 160px;
+  height: auto;
+}
+.dokumen1 {
+  display: flex;
+  padding-right: 0;
+  align-items: flex-start; /* Mengatur elemen agar berada di bagian atas */
+  gap: 20px; /* Jarak antara gambar dan konten */
+}
+
+.logodok1 {
+  width: 20px; /* Agar gambar tidak mengecil */
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column; /* Mengatur kontainer dan pendok bersusun vertikal */
+}
+
+.containerr,
+.pendok {
+  max-width: 700px; /* Atur lebar maksimal container */
+}
+
+@media (max-width: 768px) {
+  .containerr,
+  .pendok {
+    max-width: 100%;
+  }
+}
+
+.containerr h2 {
+  margin: 0; /* Hilangkan margin default h2 */
+  padding-left: 0;
+}
+
+.pendok p {
+  padding: 8px;
+  margin-top: 10px; /* Berikan sedikit jarak di atas paragraf */
+}
+
+.download-button {
+  display: inline-block;
+  background-color: #ff4500;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #ff5722;
+}
+/* Gaya untuk bagian dokumen kebijakan */
+.policy-documents {
+  background-color: rgba(12, 19, 53, 0.01); /* Warna latar belakang biru */
+  color: white; /* Warna teks putih */
+  padding: 5px 0px;
+  margin-top: 5px;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 2px;
+}
+
+.policy-documents h2 {
+  font-size: 28px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  color: white;
+  border-bottom: 2px solid white; /* Garis bawah */
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.policy-documents2 {
+  background-color: #0c1335; /* Warna latar belakang biru */
+  color: white; /* Warna teks putih */
+  padding: 5px 0px;
+  margin-top: 5px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 2px;
+}
+
+.policy-documents2 h2 {
+  font-size: 28px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  color: white;
+  border-bottom: 2px solid white; /* Garis bawah */
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* Gaya untuk footer */
+ul {
+  list-style: none;
+}
+
+.example-1 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+}
+.example-1 .icon-content {
+  position: relative;
+}
+.example-1 .icon-content .tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.example-1 .icon-content:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -50px;
+}
+.example-1 .icon-content .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  color: var(--bs-light-text-emphasis);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid var(--bs-light-text-emphasis);
+}
+.example-1 .icon-content .link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid white;
+}
+.example-1 .icon-content .link:hover {
+  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+.example-1 .icon-content .link svg {
+  width: 20px;
+  height: 20px;
+}
+.example-1 .icon-content .link-footer[data-social="instagram"]:hover {
+  color: #dc2743;
+}
+.example-1 .icon-content .link-footer[data-social="facebook"]:hover {
+  color: #0866ff;
+}
+.example-1 .icon-content .link-footer[data-social="email"]:hover {
+  color: gray;
+}
+
+.carousel-item img {
+  object-fit: cover;
+}
+
+#text-footer ul li a {
+  color: #869198;
+}
+
+.brand-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
