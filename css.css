@@ -316,6 +316,11 @@ ul {
 #text-footer ul li a {
   color: #869198;
 }
+#text-footer ul li a:hover {
+  transition: all 0.3s;
+  padding-left: 5px;
+  color: #ffff;
+}
 
 .brand-footer {
   display: flex;
@@ -323,4 +328,12 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 12px;
+}
+
+.maps a {
+  color: #869198;
+  text-decoration: none;
+}
+.maps a:hover {
+  color: #ffff;
 }
